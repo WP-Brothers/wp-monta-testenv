@@ -1,0 +1,152 @@
+2023-11-15T09:38:31+00:00 CRITICAL strict_types declaration must be the very first statement in the script in /Users/jaschavanaalst/.development/Projects/Php/Wordpress/plugins/wp-monta-testcase/wp-monta-testcase.php op de lijn 5
+
+2023-11-15T09:38:49+00:00 CRITICAL strict_types declaration must be the very first statement in the script in /Users/jaschavanaalst/.development/Projects/Php/Wordpress/plugins/wp-monta-testcase/wp-monta-testcase.php op de lijn 5
+
+2023-11-15T09:58:53+00:00 CRITICAL Uncaught Error: Call to undefined method GuzzleHttp\Utils::chooseHandler() in /Users/jaschavanaalst/.development/Projects/Php/Wordpress/sites/wp-test/wp-content/plugins/montapacking-checkout-woocommerce-extension/vendor/guzzlehttp/guzzle/src/functions.php:61
+Stack trace:
+#0 /Users/jaschavanaalst/.development/Projects/Php/Wordpress/plugins/wp-monta-testcase/vendor/guzzlehttp/guzzle/src/HandlerStack.php(42): GuzzleHttp\choose_handler()
+#1 /Users/jaschavanaalst/.development/Projects/Php/Wordpress/plugins/wp-monta-testcase/vendor/guzzlehttp/guzzle/src/Client.php(65): GuzzleHttp\HandlerStack::create()
+#2 /Users/jaschavanaalst/.development/Projects/Php/Wordpress/plugins/wp-monta-testcase/wp-monta-testcase.php(39): GuzzleHttp\Client->__construct()
+#3 /Users/jaschavanaalst/.development/Projects/Php/Wordpress/sites/wp-test/wp-includes/class-wp-hook.php(324): {closure}('')
+#4 /Users/jaschavanaalst/.development/Projects/Php/Wordpress/sites/wp-test/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 /Users/jaschavanaalst/.development/Projects/Php/Wordpress/sites/wp-test/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /Users/jaschavanaalst/.development/Projects/Php/Wordpress/sites/wp-test/wp-settings.php(506): do_action('plugins_loaded')
+#7 /Users/jaschavanaalst/.development/Projects/Php/Wordpress/sites/wp-test/wp-config.php(102): require_once('/Users/jaschava...')
+#8 /Users/jaschavanaalst/.development/Projects/Php/Wordpress/sites/wp-test/wp-load.php(50): require_once('/Users/jaschava...')
+#9 /Users/jaschavanaalst/.development/Projects/Php/Wordpress/sites/wp-test/wp-admin/admin-ajax.php(22): require_once('/Users/jaschava...')
+#10 /Users/jaschavanaalst/.composer/vendor/laravel/valet/server.php(110): require('/Users/jaschava...')
+#11 {main}
+  thrown in /Users/jaschavanaalst/.development/Projects/Php/Wordpress/sites/wp-test/wp-content/plugins/montapacking-checkout-woocommerce-extension/vendor/guzzlehttp/guzzle/src/functions.php op de lijn 61
+
+2023-11-15T10:00:53+00:00 CRITICAL Uncaught Error: Call to undefined method GuzzleHttp\Utils::chooseHandler() in /Users/jaschavanaalst/.development/Projects/Php/Wordpress/sites/wp-test/wp-content/plugins/montapacking-checkout-woocommerce-extension/vendor/guzzlehttp/guzzle/src/functions.php:61
+Stack trace:
+#0 /Users/jaschavanaalst/.development/Projects/Php/Wordpress/plugins/wp-monta-testcase/vendor/guzzlehttp/guzzle/src/HandlerStack.php(42): GuzzleHttp\choose_handler()
+#1 /Users/jaschavanaalst/.development/Projects/Php/Wordpress/plugins/wp-monta-testcase/vendor/guzzlehttp/guzzle/src/Client.php(65): GuzzleHttp\HandlerStack::create()
+#2 /Users/jaschavanaalst/.development/Projects/Php/Wordpress/plugins/wp-monta-testcase/wp-monta-testcase.php(37): GuzzleHttp\Client->__construct()
+#3 /Users/jaschavanaalst/.development/Projects/Php/Wordpress/sites/wp-test/wp-includes/class-wp-hook.php(324): {closure}('')
+#4 /Users/jaschavanaalst/.development/Projects/Php/Wordpress/sites/wp-test/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 /Users/jaschavanaalst/.development/Projects/Php/Wordpress/sites/wp-test/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /Users/jaschavanaalst/.development/Projects/Php/Wordpress/sites/wp-test/wp-settings.php(506): do_action('plugins_loaded')
+#7 /Users/jaschavanaalst/.development/Projects/Php/Wordpress/sites/wp-test/wp-config.php(102): require_once('/Users/jaschava...')
+#8 /Users/jaschavanaalst/.development/Projects/Php/Wordpress/sites/wp-test/wp-load.php(50): require_once('/Users/jaschava...')
+#9 /Users/jaschavanaalst/.development/Projects/Php/Wordpress/sites/wp-test/wp-admin/admin-ajax.php(22): require_once('/Users/jaschava...')
+#10 /Users/jaschavanaalst/.composer/vendor/laravel/valet/server.php(110): require('/Users/jaschava...')
+#11 {main}
+  thrown in /Users/jaschavanaalst/.development/Projects/Php/Wordpress/sites/wp-test/wp-content/plugins/montapacking-checkout-woocommerce-extension/vendor/guzzlehttp/guzzle/src/functions.php op de lijn 61
+
+2023-11-15T10:02:54+00:00 CRITICAL Uncaught Error: Call to undefined method GuzzleHttp\Utils::chooseHandler() in /Users/jaschavanaalst/.development/Projects/Php/Wordpress/sites/wp-test/wp-content/plugins/montapacking-checkout-woocommerce-extension/vendor/guzzlehttp/guzzle/src/functions.php:61
+Stack trace:
+#0 /Users/jaschavanaalst/.development/Projects/Php/Wordpress/plugins/wp-monta-testcase/vendor/guzzlehttp/guzzle/src/HandlerStack.php(42): GuzzleHttp\choose_handler()
+#1 /Users/jaschavanaalst/.development/Projects/Php/Wordpress/plugins/wp-monta-testcase/vendor/guzzlehttp/guzzle/src/Client.php(65): GuzzleHttp\HandlerStack::create()
+#2 /Users/jaschavanaalst/.development/Projects/Php/Wordpress/plugins/wp-monta-testcase/wp-monta-testcase.php(37): GuzzleHttp\Client->__construct()
+#3 /Users/jaschavanaalst/.development/Projects/Php/Wordpress/sites/wp-test/wp-includes/class-wp-hook.php(324): {closure}('')
+#4 /Users/jaschavanaalst/.development/Projects/Php/Wordpress/sites/wp-test/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 /Users/jaschavanaalst/.development/Projects/Php/Wordpress/sites/wp-test/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /Users/jaschavanaalst/.development/Projects/Php/Wordpress/sites/wp-test/wp-settings.php(506): do_action('plugins_loaded')
+#7 /Users/jaschavanaalst/.development/Projects/Php/Wordpress/sites/wp-test/wp-config.php(102): require_once('/Users/jaschava...')
+#8 /Users/jaschavanaalst/.development/Projects/Php/Wordpress/sites/wp-test/wp-load.php(50): require_once('/Users/jaschava...')
+#9 /Users/jaschavanaalst/.development/Projects/Php/Wordpress/sites/wp-test/wp-admin/admin-ajax.php(22): require_once('/Users/jaschava...')
+#10 /Users/jaschavanaalst/.composer/vendor/laravel/valet/server.php(110): require('/Users/jaschava...')
+#11 {main}
+  thrown in /Users/jaschavanaalst/.development/Projects/Php/Wordpress/sites/wp-test/wp-content/plugins/montapacking-checkout-woocommerce-extension/vendor/guzzlehttp/guzzle/src/functions.php op de lijn 61
+
+2023-11-15T10:04:19+00:00 CRITICAL Uncaught Error: Call to undefined method GuzzleHttp\Utils::chooseHandler() in /Users/jaschavanaalst/.development/Projects/Php/Wordpress/sites/wp-test/wp-content/plugins/montapacking-checkout-woocommerce-extension/vendor/guzzlehttp/guzzle/src/functions.php:61
+Stack trace:
+#0 /Users/jaschavanaalst/.development/Projects/Php/Wordpress/plugins/wp-monta-testcase/vendor/guzzlehttp/guzzle/src/HandlerStack.php(42): GuzzleHttp\choose_handler()
+#1 /Users/jaschavanaalst/.development/Projects/Php/Wordpress/plugins/wp-monta-testcase/vendor/guzzlehttp/guzzle/src/Client.php(65): GuzzleHttp\HandlerStack::create()
+#2 /Users/jaschavanaalst/.development/Projects/Php/Wordpress/plugins/wp-monta-testcase/wp-monta-testcase.php(37): GuzzleHttp\Client->__construct()
+#3 /Users/jaschavanaalst/.development/Projects/Php/Wordpress/sites/wp-test/wp-includes/class-wp-hook.php(324): {closure}('')
+#4 /Users/jaschavanaalst/.development/Projects/Php/Wordpress/sites/wp-test/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 /Users/jaschavanaalst/.development/Projects/Php/Wordpress/sites/wp-test/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /Users/jaschavanaalst/.development/Projects/Php/Wordpress/sites/wp-test/wp-settings.php(506): do_action('plugins_loaded')
+#7 /Users/jaschavanaalst/.development/Projects/Php/Wordpress/sites/wp-test/wp-config.php(102): require_once('/Users/jaschava...')
+#8 /Users/jaschavanaalst/.development/Projects/Php/Wordpress/sites/wp-test/wp-load.php(50): require_once('/Users/jaschava...')
+#9 /Users/jaschavanaalst/.development/Projects/Php/Wordpress/sites/wp-test/wp-admin/admin-ajax.php(22): require_once('/Users/jaschava...')
+#10 /Users/jaschavanaalst/.composer/vendor/laravel/valet/server.php(110): require('/Users/jaschava...')
+#11 {main}
+  thrown in /Users/jaschavanaalst/.development/Projects/Php/Wordpress/sites/wp-test/wp-content/plugins/montapacking-checkout-woocommerce-extension/vendor/guzzlehttp/guzzle/src/functions.php op de lijn 61
+
+2023-11-15T10:04:23+00:00 CRITICAL Uncaught Error: Call to undefined method GuzzleHttp\Utils::chooseHandler() in /Users/jaschavanaalst/.development/Projects/Php/Wordpress/sites/wp-test/vendor/guzzlehttp/guzzle/src/functions.php:61
+Stack trace:
+#0 /Users/jaschavanaalst/.development/Projects/Php/Wordpress/plugins/wp-monta-testcase/vendor/guzzlehttp/guzzle/src/HandlerStack.php(42): GuzzleHttp\choose_handler()
+#1 /Users/jaschavanaalst/.development/Projects/Php/Wordpress/plugins/wp-monta-testcase/vendor/guzzlehttp/guzzle/src/Client.php(65): GuzzleHttp\HandlerStack::create()
+#2 /Users/jaschavanaalst/.development/Projects/Php/Wordpress/plugins/wp-monta-testcase/wp-monta-testcase.php(37): GuzzleHttp\Client->__construct()
+#3 /Users/jaschavanaalst/.development/Projects/Php/Wordpress/sites/wp-test/wp-includes/class-wp-hook.php(324): {closure}('')
+#4 /Users/jaschavanaalst/.development/Projects/Php/Wordpress/sites/wp-test/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 /Users/jaschavanaalst/.development/Projects/Php/Wordpress/sites/wp-test/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /Users/jaschavanaalst/.development/Projects/Php/Wordpress/sites/wp-test/wp-settings.php(506): do_action('plugins_loaded')
+#7 /Users/jaschavanaalst/.development/Projects/Php/Wordpress/sites/wp-test/wp-config.php(102): require_once('/Users/jaschava...')
+#8 /Users/jaschavanaalst/.development/Projects/Php/Wordpress/sites/wp-test/wp-load.php(50): require_once('/Users/jaschava...')
+#9 /Users/jaschavanaalst/.development/Projects/Php/Wordpress/sites/wp-test/wp-blog-header.php(13): require_once('/Users/jaschava...')
+#10 /Users/jaschavanaalst/.development/Projects/Php/Wordpress/sites/wp-test/index.php(17): require('/Users/jaschava...')
+#11 /Users/jaschavanaalst/.composer/vendor/laravel/valet/server.php(110): require('/Users/jaschava...')
+#12 {main}
+  thrown in /Users/jaschavanaalst/.development/Projects/Php/Wordpress/sites/wp-test/vendor/guzzlehttp/guzzle/src/functions.php op de lijn 61
+
+2023-11-15T10:04:23+00:00 CRITICAL Uncaught Error: Call to undefined method GuzzleHttp\Utils::chooseHandler() in /Users/jaschavanaalst/.development/Projects/Php/Wordpress/sites/wp-test/vendor/guzzlehttp/guzzle/src/functions.php:61
+Stack trace:
+#0 /Users/jaschavanaalst/.development/Projects/Php/Wordpress/plugins/wp-monta-testcase/vendor/guzzlehttp/guzzle/src/HandlerStack.php(42): GuzzleHttp\choose_handler()
+#1 /Users/jaschavanaalst/.development/Projects/Php/Wordpress/plugins/wp-monta-testcase/vendor/guzzlehttp/guzzle/src/Client.php(65): GuzzleHttp\HandlerStack::create()
+#2 /Users/jaschavanaalst/.development/Projects/Php/Wordpress/plugins/wp-monta-testcase/wp-monta-testcase.php(37): GuzzleHttp\Client->__construct()
+#3 /Users/jaschavanaalst/.development/Projects/Php/Wordpress/sites/wp-test/wp-includes/class-wp-hook.php(324): {closure}('')
+#4 /Users/jaschavanaalst/.development/Projects/Php/Wordpress/sites/wp-test/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 /Users/jaschavanaalst/.development/Projects/Php/Wordpress/sites/wp-test/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /Users/jaschavanaalst/.development/Projects/Php/Wordpress/sites/wp-test/wp-settings.php(506): do_action('plugins_loaded')
+#7 /Users/jaschavanaalst/.development/Projects/Php/Wordpress/sites/wp-test/wp-config.php(102): require_once('/Users/jaschava...')
+#8 /Users/jaschavanaalst/.development/Projects/Php/Wordpress/sites/wp-test/wp-load.php(50): require_once('/Users/jaschava...')
+#9 /Users/jaschavanaalst/.development/Projects/Php/Wordpress/sites/wp-test/wp-blog-header.php(13): require_once('/Users/jaschava...')
+#10 /Users/jaschavanaalst/.development/Projects/Php/Wordpress/sites/wp-test/index.php(17): require('/Users/jaschava...')
+#11 /Users/jaschavanaalst/.composer/vendor/laravel/valet/server.php(110): require('/Users/jaschava...')
+#12 {main}
+  thrown in /Users/jaschavanaalst/.development/Projects/Php/Wordpress/sites/wp-test/vendor/guzzlehttp/guzzle/src/functions.php op de lijn 61
+
+2023-11-15T10:04:43+00:00 CRITICAL Uncaught Error: Call to undefined method GuzzleHttp\Utils::chooseHandler() in /Users/jaschavanaalst/.development/Projects/Php/Wordpress/sites/wp-test/vendor/guzzlehttp/guzzle/src/functions.php:61
+Stack trace:
+#0 /Users/jaschavanaalst/.development/Projects/Php/Wordpress/plugins/wp-monta-testcase/vendor/guzzlehttp/guzzle/src/HandlerStack.php(42): GuzzleHttp\choose_handler()
+#1 /Users/jaschavanaalst/.development/Projects/Php/Wordpress/plugins/wp-monta-testcase/vendor/guzzlehttp/guzzle/src/Client.php(65): GuzzleHttp\HandlerStack::create()
+#2 /Users/jaschavanaalst/.development/Projects/Php/Wordpress/plugins/wp-monta-testcase/wp-monta-testcase.php(37): GuzzleHttp\Client->__construct()
+#3 /Users/jaschavanaalst/.development/Projects/Php/Wordpress/sites/wp-test/wp-includes/class-wp-hook.php(324): {closure}('')
+#4 /Users/jaschavanaalst/.development/Projects/Php/Wordpress/sites/wp-test/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 /Users/jaschavanaalst/.development/Projects/Php/Wordpress/sites/wp-test/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /Users/jaschavanaalst/.development/Projects/Php/Wordpress/sites/wp-test/wp-settings.php(506): do_action('plugins_loaded')
+#7 /Users/jaschavanaalst/.development/Projects/Php/Wordpress/sites/wp-test/wp-config.php(102): require_once('/Users/jaschava...')
+#8 /Users/jaschavanaalst/.development/Projects/Php/Wordpress/sites/wp-test/wp-load.php(50): require_once('/Users/jaschava...')
+#9 /Users/jaschavanaalst/.development/Projects/Php/Wordpress/sites/wp-test/wp-cron.php(46): require_once('/Users/jaschava...')
+#10 /Users/jaschavanaalst/.composer/vendor/laravel/valet/server.php(110): require('/Users/jaschava...')
+#11 {main}
+  thrown in /Users/jaschavanaalst/.development/Projects/Php/Wordpress/sites/wp-test/vendor/guzzlehttp/guzzle/src/functions.php op de lijn 61
+
+2023-11-15T10:11:59+00:00 CRITICAL Uncaught Error: Call to undefined method GuzzleHttp\Utils::chooseHandler() in /Users/jaschavanaalst/.development/Projects/Php/Wordpress/sites/wp-test/wp-content/plugins/montapacking-checkout-woocommerce-extension/vendor/guzzlehttp/guzzle/src/functions.php:61
+Stack trace:
+#0 /Users/jaschavanaalst/.development/Projects/Php/Wordpress/sites/wp-test/vendor/guzzlehttp/guzzle/src/HandlerStack.php(42): GuzzleHttp\choose_handler()
+#1 /Users/jaschavanaalst/.development/Projects/Php/Wordpress/sites/wp-test/vendor/guzzlehttp/guzzle/src/Client.php(65): GuzzleHttp\HandlerStack::create()
+#2 /Users/jaschavanaalst/.development/Projects/Php/Wordpress/sites/wp-test/wp-content/plugins/wp-monta-testcase/wp-monta-testcase.php(37): GuzzleHttp\Client->__construct()
+#3 /Users/jaschavanaalst/.development/Projects/Php/Wordpress/sites/wp-test/wp-includes/class-wp-hook.php(324): {closure}('')
+#4 /Users/jaschavanaalst/.development/Projects/Php/Wordpress/sites/wp-test/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 /Users/jaschavanaalst/.development/Projects/Php/Wordpress/sites/wp-test/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /Users/jaschavanaalst/.development/Projects/Php/Wordpress/sites/wp-test/wp-settings.php(506): do_action('plugins_loaded')
+#7 /Users/jaschavanaalst/.development/Projects/Php/Wordpress/sites/wp-test/wp-config.php(102): require_once('/Users/jaschava...')
+#8 /Users/jaschavanaalst/.development/Projects/Php/Wordpress/sites/wp-test/wp-load.php(50): require_once('/Users/jaschava...')
+#9 /Users/jaschavanaalst/.development/Projects/Php/Wordpress/sites/wp-test/wp-admin/admin.php(34): require_once('/Users/jaschava...')
+#10 /Users/jaschavanaalst/.development/Projects/Php/Wordpress/sites/wp-test/wp-admin/index.php(10): require_once('/Users/jaschava...')
+#11 /Users/jaschavanaalst/.composer/vendor/laravel/valet/server.php(110): require('/Users/jaschava...')
+#12 {main}
+  thrown in /Users/jaschavanaalst/.development/Projects/Php/Wordpress/sites/wp-test/wp-content/plugins/montapacking-checkout-woocommerce-extension/vendor/guzzlehttp/guzzle/src/functions.php op de lijn 61
+
+2023-11-15T10:12:24+00:00 CRITICAL Uncaught Error: Call to undefined method GuzzleHttp\Utils::chooseHandler() in /Users/jaschavanaalst/.development/Projects/Php/Wordpress/sites/wp-test/wp-content/plugins/montapacking-checkout-woocommerce-extension/vendor/guzzlehttp/guzzle/src/functions.php:61
+Stack trace:
+#0 /Users/jaschavanaalst/.development/Projects/Php/Wordpress/sites/wp-test/vendor/guzzlehttp/guzzle/src/HandlerStack.php(42): GuzzleHttp\choose_handler()
+#1 /Users/jaschavanaalst/.development/Projects/Php/Wordpress/sites/wp-test/vendor/guzzlehttp/guzzle/src/Client.php(65): GuzzleHttp\HandlerStack::create()
+#2 /Users/jaschavanaalst/.development/Projects/Php/Wordpress/sites/wp-test/wp-content/plugins/wp-monta-testcase/wp-monta-testcase.php(37): GuzzleHttp\Client->__construct()
+#3 /Users/jaschavanaalst/.development/Projects/Php/Wordpress/sites/wp-test/wp-includes/class-wp-hook.php(324): {closure}('')
+#4 /Users/jaschavanaalst/.development/Projects/Php/Wordpress/sites/wp-test/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 /Users/jaschavanaalst/.development/Projects/Php/Wordpress/sites/wp-test/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /Users/jaschavanaalst/.development/Projects/Php/Wordpress/sites/wp-test/wp-settings.php(506): do_action('plugins_loaded')
+#7 /Users/jaschavanaalst/.development/Projects/Php/Wordpress/sites/wp-test/wp-config.php(102): require_once('/Users/jaschava...')
+#8 /Users/jaschavanaalst/.development/Projects/Php/Wordpress/sites/wp-test/wp-load.php(50): require_once('/Users/jaschava...')
+#9 /Users/jaschavanaalst/.development/Projects/Php/Wordpress/sites/wp-test/wp-admin/admin.php(34): require_once('/Users/jaschava...')
+#10 /Users/jaschavanaalst/.development/Projects/Php/Wordpress/sites/wp-test/wp-admin/index.php(10): require_once('/Users/jaschava...')
+#11 /Users/jaschavanaalst/.composer/vendor/laravel/valet/server.php(110): require('/Users/jaschava...')
+#12 {main}
+  thrown in /Users/jaschavanaalst/.development/Projects/Php/Wordpress/sites/wp-test/wp-content/plugins/montapacking-checkout-woocommerce-extension/vendor/guzzlehttp/guzzle/src/functions.php op de lijn 61
+

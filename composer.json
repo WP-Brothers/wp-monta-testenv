@@ -1,0 +1,47 @@
+{
+    "name": "soicalbrothers/wp-test-env",
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://wpackagist.org",
+            "only": [
+                "wpackagist-plugin/*",
+                "wpackagist-theme/*"
+            ]
+        }
+    ],
+    "extra": {
+        "installer-paths": {
+            "wp-content/mu-plugins/{$name}/": [
+                "type:wordpress-muplugin"
+            ],
+            "wp-content/plugins/{$name}/": [
+                "type:wordpress-plugin"
+            ],
+            "wp-content/themes/{$name}/": [
+                "type:wordpress-theme"
+            ]
+        },
+        "bamarni-bin": {
+            "bin-links": true,
+            "forward-command": true
+        }
+    },
+    "config": {
+        "platform": {
+            "php": "8.0.22"
+        },
+        "platform-check": false,
+        "allow-plugins": {
+            "composer/installers": true
+        }
+    },
+    "require-dev": {
+        "roave/security-advisories": "dev-latest"
+    },
+    "require": {
+        "composer/installers": "*",
+        "socialbrothers/wp-monta-testcase": "1.0.0",
+        "wpackagist-plugin/woocommerce": "^8.2"
+    }
+}

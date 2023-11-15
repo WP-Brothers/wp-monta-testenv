@@ -1,0 +1,3 @@
+/wp-content/plugins/*
+wp-config.php
+/vendor/
